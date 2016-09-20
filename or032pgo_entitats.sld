@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0" xmlns:xlink="http://www.w3.org/1999/xlink" units="mm" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" xmlns:se="http://www.opengis.net/se">
+<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" xmlns:se="http://www.opengis.net/se">
   <NamedLayer>
     <se:Name>or032pgo_entitats</se:Name>
     <UserStyle>
@@ -71,18 +71,18 @@
               <se:GraphicFill>
                 <se:Graphic>
                   <se:Mark>
-                    <se:WellKnownName>horline</se:WellKnownName>
+                    <se:WellKnownName>shape://backslash</se:WellKnownName>
                     <se:Stroke>
                       <se:SvgParameter name="stroke">#2d2d2d</se:SvgParameter>
                       <se:SvgParameter name="stroke-width">0.1764</se:SvgParameter>
                     </se:Stroke>
                   </se:Mark>
                   <se:Size>0.80000000000000004</se:Size>
-                  <se:Rotation>
+                  <!--se:Rotation>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                       <ogc:Literal>45</ogc:Literal>
                     </ogc:Filter>
-                  </se:Rotation>
+                  </se:Rotation-->
                 </se:Graphic>
               </se:GraphicFill>
             </se:Fill>
@@ -116,18 +116,18 @@
               <se:GraphicFill>
                 <se:Graphic>
                   <se:Mark>
-                    <se:WellKnownName>horline</se:WellKnownName>
+                    <se:WellKnownName>shape://backslash</se:WellKnownName>
                     <se:Stroke>
                       <se:SvgParameter name="stroke">#686868</se:SvgParameter>
                       <se:SvgParameter name="stroke-width">0.42330000000000001</se:SvgParameter>
                     </se:Stroke>
                   </se:Mark>
                   <se:Size>1.76390000000000002</se:Size>
-                  <se:Rotation>
+                  <!--se:Rotation>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                       <ogc:Literal>45</ogc:Literal>
                     </ogc:Filter>
-                  </se:Rotation>
+                  </se:Rotation-->
                 </se:Graphic>
               </se:GraphicFill>
             </se:Fill>
@@ -172,24 +172,24 @@
               <se:GraphicFill>
                 <se:Graphic>
                   <se:Mark>
-                    <se:WellKnownName>horline</se:WellKnownName>
+                    <se:WellKnownName>shape://backslash</se:WellKnownName>
                     <se:Stroke>
                       <se:SvgParameter name="stroke">#a50000</se:SvgParameter>
                       <se:SvgParameter name="stroke-width">0.17000000000000001</se:SvgParameter>
                     </se:Stroke>
                   </se:Mark>
                   <se:Size>0.80000000000000004</se:Size>
-                  <se:Rotation>
+                  <!--se:Rotation>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                       <ogc:Literal>45</ogc:Literal>
                     </ogc:Filter>
-                  </se:Rotation>
+                  </se:Rotation-->
                 </se:Graphic>
               </se:GraphicFill>
             </se:Fill>
           </se:PolygonSymbolizer>
         </se:Rule>
-        <se:Rule>
+        <!--se:Rule>
           <se:Name>Zona d'eixample</se:Name>
           <se:Description>
             <se:Title>Zona d'eixample</se:Title>
@@ -200,7 +200,7 @@
               <ogc:Literal>Eixample</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-        </se:Rule>
+        </se:Rule-->
         <se:Rule>
           <se:Name>3.e - Amb projecte  especial</se:Name>
           <se:Description>
@@ -217,18 +217,18 @@
               <se:GraphicFill>
                 <se:Graphic>
                   <se:Mark>
-                    <se:WellKnownName>horline</se:WellKnownName>
+                    <se:WellKnownName>shape://backslash</se:WellKnownName>
                     <se:Stroke>
                       <se:SvgParameter name="stroke">#000000</se:SvgParameter>
                       <se:SvgParameter name="stroke-width">0.1764</se:SvgParameter>
                     </se:Stroke>
                   </se:Mark>
                   <se:Size>0.80000000000000004</se:Size>
-                  <se:Rotation>
+                  <!--se:Rotation>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                       <ogc:Literal>45</ogc:Literal>
                     </ogc:Filter>
-                  </se:Rotation>
+                  </se:Rotation-->
                 </se:Graphic>
               </se:GraphicFill>
             </se:Fill>
@@ -349,18 +349,18 @@
               <se:GraphicFill>
                 <se:Graphic>
                   <se:Mark>
-                    <se:WellKnownName>horline</se:WellKnownName>
+                    <se:WellKnownName>shape://backslash</se:WellKnownName>
                     <se:Stroke>
                       <se:SvgParameter name="stroke">#7f4f3f</se:SvgParameter>
                       <se:SvgParameter name="stroke-width">0.28220000000000001</se:SvgParameter>
                     </se:Stroke>
                   </se:Mark>
                   <se:Size>0.59999999999999998</se:Size>
-                  <se:Rotation>
+                  <!--se:Rotation>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                       <ogc:Literal>45</ogc:Literal>
                     </ogc:Filter>
-                  </se:Rotation>
+                  </se:Rotation-->
                 </se:Graphic>
               </se:GraphicFill>
             </se:Fill>
@@ -382,18 +382,18 @@
               <se:GraphicFill>
                 <se:Graphic>
                   <se:Mark>
-                    <se:WellKnownName>horline</se:WellKnownName>
+                    <se:WellKnownName>shape://vertline</se:WellKnownName>
                     <se:Stroke>
                       <se:SvgParameter name="stroke">#212613</se:SvgParameter>
                       <se:SvgParameter name="stroke-width">0.1764</se:SvgParameter>
                     </se:Stroke>
                   </se:Mark>
                   <se:Size>1</se:Size>
-                  <se:Rotation>
+                  <!--se:Rotation>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                       <ogc:Literal>75</ogc:Literal>
                     </ogc:Filter>
-                  </se:Rotation>
+                  </se:Rotation-->
                   <se:Displacement>
                     <se:DisplacementX>0</se:DisplacementX>
                     <se:DisplacementY>0</se:DisplacementY>
@@ -419,18 +419,18 @@
               <se:GraphicFill>
                 <se:Graphic>
                   <se:Mark>
-                    <se:WellKnownName>horline</se:WellKnownName>
+                    <se:WellKnownName>shape://backslash</se:WellKnownName>
                     <se:Stroke>
                       <se:SvgParameter name="stroke">#260000</se:SvgParameter>
                       <se:SvgParameter name="stroke-width">0.28220000000000001</se:SvgParameter>
                     </se:Stroke>
                   </se:Mark>
                   <se:Size>0.59999999999999998</se:Size>
-                  <se:Rotation>
+                  <!--se:Rotation>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                       <ogc:Literal>45</ogc:Literal>
                     </ogc:Filter>
-                  </se:Rotation>
+                  </se:Rotation-->
                 </se:Graphic>
               </se:GraphicFill>
             </se:Fill>
@@ -452,18 +452,18 @@
               <se:GraphicFill>
                 <se:Graphic>
                   <se:Mark>
-                    <se:WellKnownName>horline</se:WellKnownName>
+                    <se:WellKnownName>shape://vertline</se:WellKnownName>
                     <se:Stroke>
                       <se:SvgParameter name="stroke">#212613</se:SvgParameter>
                       <se:SvgParameter name="stroke-width">0.1764</se:SvgParameter>
                     </se:Stroke>
                   </se:Mark>
                   <se:Size>0.59999999999999998</se:Size>
-                  <se:Rotation>
+                  <!--se:Rotation>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                       <ogc:Literal>80</ogc:Literal>
                     </ogc:Filter>
-                  </se:Rotation>
+                  </se:Rotation-->
                   <se:Displacement>
                     <se:DisplacementX>0</se:DisplacementX>
                     <se:DisplacementY>0</se:DisplacementY>
@@ -489,18 +489,18 @@
               <se:GraphicFill>
                 <se:Graphic>
                   <se:Mark>
-                    <se:WellKnownName>horline</se:WellKnownName>
+                    <se:WellKnownName>shape://backslash</se:WellKnownName>
                     <se:Stroke>
                       <se:SvgParameter name="stroke">#b0a17d</se:SvgParameter>
                       <se:SvgParameter name="stroke-width">0.3528</se:SvgParameter>
                     </se:Stroke>
                   </se:Mark>
                   <se:Size>1</se:Size>
-                  <se:Rotation>
+                  <!--se:Rotation>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                       <ogc:Literal>45</ogc:Literal>
                     </ogc:Filter>
-                  </se:Rotation>
+                  </se:Rotation-->
                 </se:Graphic>
               </se:GraphicFill>
             </se:Fill>
@@ -522,18 +522,18 @@
               <se:GraphicFill>
                 <se:Graphic>
                   <se:Mark>
-                    <se:WellKnownName>horline</se:WellKnownName>
+                    <se:WellKnownName>shape://backslash</se:WellKnownName>
                     <se:Stroke>
                       <se:SvgParameter name="stroke">#a500a5</se:SvgParameter>
                       <se:SvgParameter name="stroke-width">0.1764</se:SvgParameter>
                     </se:Stroke>
                   </se:Mark>
                   <se:Size>0.5</se:Size>
-                  <se:Rotation>
+                  <!--se:Rotation>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                       <ogc:Literal>45</ogc:Literal>
                     </ogc:Filter>
-                  </se:Rotation>
+                  </se:Rotation-->
                 </se:Graphic>
               </se:GraphicFill>
             </se:Fill>
