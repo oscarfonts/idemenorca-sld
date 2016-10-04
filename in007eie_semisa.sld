@@ -6,6 +6,29 @@
       <Name>in007eie_semisa</Name>
       <FeatureTypeStyle>
         <Rule>
+          <!--MaxScaleDenominator>5000</MaxScaleDenominator-->
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>diametre</ogc:PropertyName>
+              <ogc:PropertyName>dsmaterial</ogc:PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">9</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <LinePlacement>
+                <PerpendicularOffset>10</PerpendicularOffset>
+              </LinePlacement>
+            </LabelPlacement>
+            <VendorOption name="followLine">true</VendorOption>
+            <VendorOption name="maxAngleDelta">20</VendorOption>
+            <VendorOption name="partials">true</VendorOption>
+          </TextSymbolizer>
+        </Rule>
+        <Rule>
           <Name>Bo</Name>
           <Title>Bo</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">

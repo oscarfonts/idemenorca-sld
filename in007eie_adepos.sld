@@ -6,6 +6,51 @@
       <Name>in007eie_adepos</Name>
       <FeatureTypeStyle>
         <Rule>
+          <MaxScaleDenominator>5000</MaxScaleDenominator>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>ideiel</ogc:PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">11</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.0</AnchorPointX>
+                  <AnchorPointY>0.5</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                  <DisplacementX>12</DisplacementX>
+                  <DisplacementY>0</DisplacementY>
+                </Displacement>
+              </PointPlacement>
+            </LabelPlacement>
+            <Fill>
+              <CssParameter name="fill">#1f78b4</CssParameter>
+            </Fill>
+            <Graphic>
+              <Mark>
+                <WellKnownName>square</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#ffffff</CssParameter>
+                </Fill>
+                <Stroke>
+                  <CssParameter name="stroke">#808080</CssParameter>
+                  <CssParameter name="stroke-width">1</CssParameter>
+                  <CssParameter name="stroke-opacity">0.5</CssParameter>
+                </Stroke>
+              </Mark>
+            </Graphic>
+            <VendorOption name="graphic-resize">stretch</VendorOption>
+            <VendorOption name="graphic-margin">3</VendorOption>
+            <VendorOption name="partials">true</VendorOption>
+          </TextSymbolizer>
+        </Rule>
+        <Rule>
           <Name>Single symbol</Name>
           <PointSymbolizer>
             <Graphic>
@@ -32,7 +77,7 @@
                   <CssParameter name="stroke">#1f78b4</CssParameter>
                 </Stroke>
               </Mark>
-              <Size>6</Size>
+              <Size>5.66</Size>
             </Graphic>
           </PointSymbolizer>
         </Rule>

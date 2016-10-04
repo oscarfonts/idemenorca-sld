@@ -6,6 +6,33 @@
       <Name>or032pgo_entitats</Name>
       <FeatureTypeStyle>
         <Rule>
+          <MaxScaleDenominator>5000</MaxScaleDenominator>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>idquali</ogc:PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">11</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#ffffff</CssParameter>
+                  <CssParameter name="fill-opacity">0.7</CssParameter>
+                </Fill>
+              </Mark>
+            </Graphic>
+            <VendorOption name="graphic-resize">stretch</VendorOption>
+            <VendorOption name="graphic-margin">5</VendorOption>
+            <VendorOption name="spaceAround">6</VendorOption>
+            <VendorOption name="partials">true</VendorOption>
+          </TextSymbolizer>
+        </Rule>
+        <!--Rule>
           <Name>ZONES URBANES</Name>
           <Title>ZONES URBANES</Title>
           <PolygonSymbolizer>
@@ -18,7 +45,7 @@
               <CssParameter name="stroke-linejoin">bevel</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
-        </Rule>
+        </Rule-->
         <Rule>
           <Name>1 - CASC ANTIC</Name>
           <Title>1 - CASC ANTIC</Title>

@@ -26,6 +26,26 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
+          <MaxScaleDenominator>20000</MaxScaleDenominator>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>matricula</ogc:PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">11</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>2</Radius>
+              <Fill>
+                <CssParameter name="fill">#FFFFFF</CssParameter>
+              </Fill>
+            </Halo>
+          </TextSymbolizer>
+        </Rule>
+        <Rule>
           <Name>Alfurí de dalt</Name>
           <Title>Alfurí de dalt</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">

@@ -6,6 +6,37 @@
       <Name>in007eie_acondu</Name>
       <FeatureTypeStyle>
         <Rule>
+          <MaxScaleDenominator>5000</MaxScaleDenominator>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>ideiel</ogc:PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">11</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <LinePlacement />
+            </LabelPlacement>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#b2df8a</CssParameter>
+                  <CssParameter name="fill-opacity">0.5</CssParameter>
+                  <CssParameter name="stroke">#808080</CssParameter>
+                </Fill>
+              </Mark>
+            </Graphic>
+            <VendorOption name="graphic-resize">stretch</VendorOption>
+            <VendorOption name="graphic-margin">11</VendorOption>
+            <VendorOption name="spaceAround">12</VendorOption>
+            <VendorOption name="partials">true</VendorOption>
+          </TextSymbolizer>
+        </Rule>
+        <Rule>
           <Name>Bo</Name>
           <Title>Bo</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
